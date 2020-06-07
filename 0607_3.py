@@ -23,3 +23,22 @@ a=[1,2,3,4]
 b=[11,12,13,14]
 for n,w in zip(a,b):
     print(n,w)
+
+#return
+def exchange(n,m):
+    m,n = n,m
+    return[n,m]
+ex = exchange(3,5)
+print(ex)
+def nexchange(n,m):
+    m,n = n,m
+    d = 10
+    return n,m,d
+n,m,d = nexchange(3,5)
+print(n,m,d)
+
+#file
+f = open("foo.txt", "r", encoding="utf-8")
+s = f.read()
+print(s)
+f.close
