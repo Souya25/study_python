@@ -1,3 +1,7 @@
 fofofo
 fafafa
 fafofa
+dw
+value max_width as width%}
+dsa
+da
