@@ -10,3 +10,4 @@ length = len(height_data)
 mean =total/length
 variance = sum([(height-mean)**2 for height in height_data])/length
 print(variance)
+
